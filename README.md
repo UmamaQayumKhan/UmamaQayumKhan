@@ -40,6 +40,8 @@
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=UmamaQayumKhan&theme=dark&hide_border=false&layout=compact)
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=UmamaQayumKhan&theme=dark&hide_border=false&layout=compact&hide=jupyter%20notebook,powershell,css)
+
 ## 🏆 GitHub Trophies
 
 ![](https://github-trophies.vercel.app/?username=UmamaQayumKhan&theme=radical&no-frame=false&no-bg=false&margin-w=4)
