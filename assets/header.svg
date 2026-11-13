@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a2cdf1"/>
+      <stop offset="0.55" stop-color="#5a78a8"/>
+      <stop offset="1" stop-color="#2c3550"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a2cdf1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2c3550" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0H1200V170C1080 205 960 225 820 200C680 175 560 140 420 165C280 190 150 215 0 185Z" fill="url(#g)"/>
+  <path d="M0 185C150 215 280 190 420 165C560 140 680 175 820 200C960 225 1080 205 1200 170V195C1080 230 960 245 820 222C680 200 560 168 420 190C280 212 150 235 0 210Z" fill="url(#g2)"/>
+  <g fill="#fffdf7" opacity="0.35">
+    <circle cx="90" cy="40" r="3"/><circle cx="160" cy="95" r="2"/><circle cx="1050" cy="45" r="3"/>
+    <circle cx="1120" cy="110" r="2"/><circle cx="980" cy="130" r="2"/><circle cx="230" cy="140" r="2.5"/>
+  </g>
+  <text x="600" y="92" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+        font-size="52" font-weight="700" fill="#fffdf7" letter-spacing="1">Umama Qayum Khan</text>
+  <text x="600" y="134" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+        font-size="19" font-weight="600" fill="#fffdf7" opacity="0.92" letter-spacing="0.5">AI Engineer  ·  ML Researcher  ·  LLM &amp; RAG Systems  ·  Agentic AI  ·  Federated Learning</text>
+</svg>

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:a2cdf1,100:2c3550&height=190&section=header&text=Umama%20Qayum%20Khan&fontSize=46&fontColor=fffdf7&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20Systems%20%7C%20Agentic%20AI%20%7C%20Machine%20Learning&descAlignY=58&descSize=16" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Umama Qayum Khan, AI Engineer and ML Researcher" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fredoka&weight=600&size=22&duration=3200&pause=900&color=E05A2F&center=true&vCenter=true&width=640&lines=I+build+production-shaped+LLM+systems;RAG+%C2%B7+LangGraph+agents+%C2%B7+MCP+servers;Evaluation+is+engineering%2C+not+an+afterthought;Open+to+AI+Engineer+roles" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fredoka&weight=600&size=22&duration=3200&pause=900&color=E05A2F&center=true&vCenter=true&width=700&lines=Data+Science+Intern+%40+10Pearls+Pakistan;Researching+privacy-preserving+%26+trustworthy+ML;I+build+production-shaped+LLM+systems;RAG+%C2%B7+LangGraph+agents+%C2%B7+MCP+servers;Open+to+AI%2FML+roles+%26+research+collaborations" alt="Typing SVG" /></a>
 
 <p>
   <a href="https://umama-qayum-khan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-umama--qayum--khan.netlify.app-E05A2F?style=for-the-badge&logo=netlify&logoColor=white" /></a>
@@ -18,16 +18,68 @@
 
 ## About me
 
-I'm a Computer Science graduate and AI Engineer based in Islamabad, Pakistan. I build LLM systems that are meant to run in production: retrieval-augmented generation with hybrid search and reranking, LangGraph agents with tool calling and human-in-the-loop escalation, MCP servers, and n8n AI automations.
+I'm an AI Engineer and machine learning researcher based in Islamabad, Pakistan, and a Computer Science graduate of Iqra University. I'm currently a **Data Science Intern at [10Pearls Pakistan](https://10pearls.com)**.
 
-I treat evaluation as part of the engineering. My projects ship with golden-set eval harnesses, confidence intervals and CI quality gates, so regressions get caught before release instead of after. I also have a solid base in classical ML, Deep Learning, NLP, Computer Vision and Federated Learning.
+I work on two sides of the same problem. As an engineer, I build LLM systems meant for production: retrieval-augmented generation with hybrid search and reranking, LangGraph agents with tool calling and human-in-the-loop escalation, MCP servers and n8n AI automations. As a researcher, I study how to make machine learning **private, reliable and honest about what it knows**, especially when the data is sensitive, spread across institutions, or different from what a model was trained on.
 
-- 🔭 Currently doing research in privacy-preserving and trustworthy machine learning
-- 📄 Co-authored a paper on Huntington's disease detection with Federated Learning and Agentic AI (submitted to AI2ML 2026)
-- 💼 Previously AI/ML Intern at **KodexByte** (Houston, TX, remote) and Junior AI/ML Associate at **Tecwyze SMC / RevivingCare**
-- 🏅 Oracle Certified: OCI AI Foundations Associate and Generative AI Professional
-- 🤝 Open to AI Engineer roles and research collaboration in healthcare AI
-- 💬 Ask me about RAG, agents, LLM evaluation, Federated Learning or computer vision
+What connects both is rigorous evaluation. My projects ship with golden-set eval harnesses, confidence intervals, leak-free validation and CI quality gates, so a claimed improvement has to hold up before I report it.
+
+- 💼 **Now:** Data Science Intern at **10Pearls Pakistan**
+- 🔬 **Researching:** privacy-preserving ML, federated learning and reliable computer vision under distribution shift
+- 📄 **Paper:** co-authored *Huntington's Disease Detection and Severity Grading Using Federated Learning and Agentic AI*, submitted to AI2ML 2026
+- 🧪 **Before:** AI/ML Intern at **KodexByte** (Houston, TX, remote), Junior AI/ML Associate at **Tecwyze SMC / RevivingCare**, and Research Assistant at **Iqra University**
+- 🏅 **Certified:** Oracle OCI AI Foundations Associate and OCI Generative AI Professional
+- 🤝 **Open to:** AI/ML Engineer roles and research collaborations in healthcare AI and trustworthy ML
+
+---
+
+## 🔬 Research
+
+My research asks two questions: **how can models learn from sensitive, distributed data without exposing it**, and **how do we keep them reliable once real-world data stops looking like the training set?** I'm especially interested in healthcare, where both problems show up at once.
+
+**Research interests**
+
+<p>
+  <img src="https://img.shields.io/badge/Federated_Learning-2C3550?style=flat-square" />
+  <img src="https://img.shields.io/badge/Privacy--Preserving_ML-1F7A4D?style=flat-square" />
+  <img src="https://img.shields.io/badge/Trustworthy_AI-E05A2F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Distribution_Shift_%26_Robustness-5A78A8?style=flat-square" />
+  <img src="https://img.shields.io/badge/Uncertainty_%26_Calibration-7A5195?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agentic_AI-1C3C3C?style=flat-square" />
+  <img src="https://img.shields.io/badge/Healthcare_AI-C0392B?style=flat-square" />
+</p>
+
+### Research work
+
+**📄 Huntington's Disease Detection and Severity Grading Using Federated Learning and Agentic AI**<br>
+*Co-author · Submitted to the International Conference on Advancement and Innovations in AI and ML (AI2ML 2026)*
+
+A privacy-preserving framework that lets several institutions train a shared model for Huntington's disease detection and severity grading without pooling patient data. It pairs federated learning (FedAvg, FedShape, GPT-FL) with an agentic Actor-Critic layer that supervises training. I designed the Actor-Critic module, which watches client loss, gradient behaviour and convergence stability to support robust aggregation on non-IID, multi-institutional data. I also benchmarked centralised baselines against federated strategies and wrote the methodology and discussion sections.
+
+`Federated Learning` `Agentic AI` `Healthcare AI` `Python` `TensorFlow` `Scikit-learn`
+
+**🔒 Privacy-Preserving Machine Learning** · *Ongoing*
+
+Secure, responsible machine learning for sensitive and distributed data: how intelligent systems can stay useful without compromising the information they learn from.
+
+`Privacy` `Security` `Trustworthy ML`
+
+**🔒 Reliable Computer Vision under Distribution Shift** · *Ongoing*
+
+How deep vision models behave when deployment data differs from their training data, studied through reliability, generalisation, confidence and robustness.
+
+`Computer Vision` `Robustness` `Generalisation` `Deep Learning`
+
+> Methods, datasets and results for ongoing work stay confidential until submission or publication. If you're working on related problems, I'd be glad to talk.
+
+### Research practice in my projects
+
+I apply the same standards to my projects, especially when the honest number is the less flattering one:
+
+- **Leak-free splits:** in the DNA Gene Family Classifier, grouping duplicate sequences brought accuracy from an inflated 90% down to an honest 87.5%
+- **Scaffold splitting:** on MoleculeNet BBBP it exposed a +0.073 ROC-AUC inflation from molecular-series leakage, and I added calibration analysis (ECE 0.046)
+- **Subject-wise validation:** leave-one-subject-out testing on EEG revealed a 28-point accuracy gap that random-window splits hide
+- **Statistical testing:** EvalForge reports bootstrap and Wilson confidence intervals and uses McNemar tests, so a change only counts as an improvement when the evidence supports it
 
 ---
 
@@ -51,16 +103,6 @@ I treat evaluation as part of the engineering. My projects ship with golden-set 
 | **TeleAgent** | 6-agent telecom ops platform covering anomalies, fraud, sentiment and load forecasting | Streamlit · SHAP · NumPy LSTM |
 | **NeuralRecruit** | 5-agent resume screening pipeline with FedAvg and differential privacy | Streamlit · Scikit-learn |
 | **NeuroResearch** | 5-agent research assistant over ArXiv, Semantic Scholar and CrossRef with SSE streaming | FastAPI · JavaScript |
-
-## Research work
-
-| Research | Area | Status |
-|---|---|---|
-| **Huntington's Disease Detection and Severity Grading Using Federated Learning and Agentic AI** | Federated Learning · Agentic AI · Healthcare AI | 📄 Submitted, AI2ML 2026 |
-| **Privacy-Preserving Machine Learning** | Trustworthy and privacy-preserving ML | 🔬 Ongoing |
-| **Reliable Computer Vision under Distribution Shift** | Deep Learning · Computer Vision | 🔬 Ongoing |
-
-> Methods, datasets and results are kept confidential until publication.
 
 ---
 
@@ -151,7 +193,7 @@ I treat evaluation as part of the engineering. My projects ship with golden-set 
 
 **Let's build something reliable.** Reach me at [umamaqayum@gmail.com](mailto:umamaqayum@gmail.com) or on [LinkedIn](https://linkedin.com/in/umama-qayum-khan-770235280).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3550,100:a2cdf1&height=110&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" alt="" />
 
 </div>
 
