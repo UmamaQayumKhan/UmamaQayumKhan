@@ -52,6 +52,16 @@ I treat evaluation as part of the engineering. My projects ship with golden-set 
 | **NeuralRecruit** | 5-agent resume screening pipeline with FedAvg and differential privacy | Streamlit · Scikit-learn |
 | **NeuroResearch** | 5-agent research assistant over ArXiv, Semantic Scholar and CrossRef with SSE streaming | FastAPI · JavaScript |
 
+## Research work
+
+| Research | Area | Status |
+|---|---|---|
+| **Huntington's Disease Detection and Severity Grading Using Federated Learning and Agentic AI** | Federated Learning · Agentic AI · Healthcare AI | 📄 Submitted, AI2ML 2026 |
+| **Privacy-Preserving Machine Learning** | Trustworthy and privacy-preserving ML | 🔬 Ongoing |
+| **Reliable Computer Vision under Distribution Shift** | Deep Learning · Computer Vision | 🔬 Ongoing |
+
+> Methods, datasets and results are kept confidential until publication.
+
 ---
 
 ## Tech stack
@@ -115,8 +125,8 @@ I treat evaluation as part of the engineering. My projects ship with golden-set 
 ## GitHub stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=UmamaQayumKhan&show_icons=true&hide_border=true&bg_color=fffdf7&title_color=e05a2f&icon_color=1f7a4d&text_color=2c3550&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmamaQayumKhan&layout=compact&hide_border=true&bg_color=fffdf7&title_color=e05a2f&text_color=2c3550&langs_count=6" />
+  <img height="170" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="170" src="./profile/top-langs.svg" alt="Most used languages" />
 </div>
 
 <div align="center">
@@ -126,13 +136,13 @@ I treat evaluation as part of the engineering. My projects ship with golden-set 
 ## GitHub trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=UmamaQayumKhan&theme=flat&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+  <img src="./profile/trophies.svg" alt="GitHub trophies" width="100%" />
 </div>
 
 ## Contribution graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UmamaQayumKhan&bg_color=fffdf7&color=2c3550&line=e05a2f&point=1f7a4d&area=true&hide_border=true" width="100%" />
+  <img src="./profile/activity.svg" alt="Contribution graph" width="100%" />
 </div>
 
 ---

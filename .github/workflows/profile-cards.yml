@@ -1,0 +1,46 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cards
+        run: python .github/scripts/profile_cards.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: UmamaQayumKhan
+
+      - name: Commit cards
+        run: |
+          git config user.name "Umama Qayum Khan"
+          git config user.email "UmamaQayumKhan@users.noreply.github.com"
+          git add profile
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update profile cards"
+            git push
+          fi
